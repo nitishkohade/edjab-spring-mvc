@@ -1,0 +1,184 @@
+/* .panel.with-nav-tabs .panel-heading {
+	padding: 5px 5px 0 5px;
+}
+
+.panel.with-nav-tabs .nav-tabs {
+	border-bottom: none;
+}
+
+.panel.with-nav-tabs .nav-justified {
+	margin-bottom: -1px;
+}
+
+** PANEL PRIMARY **
+.with-nav-tabs.panel-primary .nav-tabs>li>a, .with-nav-tabs.panel-primary .nav-tabs>li>a:hover,
+	.with-nav-tabs.panel-primary .nav-tabs>li>a:focus {
+	color: #fff;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs>.open>a, .with-nav-tabs.panel-primary .nav-tabs>.open>a:hover,
+	.with-nav-tabs.panel-primary .nav-tabs>.open>a:focus, .with-nav-tabs.panel-primary .nav-tabs>li>a:hover,
+	.with-nav-tabs.panel-primary .nav-tabs>li>a:focus {
+	color: #fff;
+	background-color: #3071a9;
+	border-color: transparent;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs>li.active>a, .with-nav-tabs.panel-primary .nav-tabs>li.active>a:hover,
+	.with-nav-tabs.panel-primary .nav-tabs>li.active>a:focus {
+	color: #428bca;
+	background-color: #fff;
+	border-color: #428bca;
+	border-bottom-color: transparent;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu {
+	background-color: #428bca;
+	border-color: #3071a9;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>li>a {
+	color: #fff;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>li>a:hover,
+	.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>li>a:focus
+	{
+	background-color: #3071a9;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>.active>a,
+	.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>.active>a:hover,
+	.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>.active>a:focus
+	{
+	background-color: #4a9fe9;
+} */
+
+
+
+
+.user_setting_sub {
+   /* width: 100px;  */
+    padding: 10px;
+    position: relative;
+    color: black;
+    
+}
+
+
+.user_setting_radio_dot:after{
+    content: "";
+    display: block;
+    position: absolute;
+    background: transparent;
+    border-radius: 40%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    top: -5px;
+    left: -5px;
+}
+
+.user_setting_radio_dot{
+    content: "";
+    display: block;
+    position: absolute;
+    
+    border-radius: 40%;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #000;
+    top: 14px;
+    
+}
+
+
+
+.user_setting_breadcrumb a {
+    padding: 10px 12px 10px 25px;
+    margin-right: 5px;
+    background: #efefef;
+    position: relative;
+    display: inline-block;
+    color: #007ACC;
+    text-decoration:none;
+}
+.user_setting_breadcrumb a:hover {cursor: pointer; cursor: hand;}
+.user_setting_breadcrumb a.disabled:hover, a.current:hover {
+    cursor: default;
+}
+
+.user_setting_breadcrumb a.disabled {
+    color: #000;
+}
+
+.user_setting_breadcrumb a:before {
+    width: 0;
+    height: 0;
+    border-top: 21px inset transparent;
+    border-bottom: 21px inset transparent;
+    border-left: 20px solid #fff;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+}
+.user_setting_breadcrumb a:after {
+    width: 0;
+    height: 0;
+    border-top: 21px inset transparent;
+    border-bottom: 21px inset transparent;
+    border-left: 20px solid #efefef;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -20px;
+    z-index: 2;
+}
+/*.steps a:last-child:after,*/
+.user_setting_breadcrumb a:first-child:before {
+    border: none;
+}
+.user_setting_breadcrumb a:first-child {
+    padding-left:15px;   
+    -webkit-border-radius: 4px 0 0 4px;
+       -moz-border-radius: 4px 0 0 4px;
+            border-radius: 4px 0 0 4px;
+}
+.user_setting_breadcrumb a:last-child {
+    -webkit-border-radius: 0 4px 4px 0;
+       -moz-border-radius: 0 4px 4px 0;
+            border-radius: 0 4px 4px 0;
+}
+.user_setting_breadcrumb .current {
+    background: #FFA500;
+    color: #fff;
+}
+.user_setting_breadcrumb .current:after {
+    border-left-color: #FFA500;
+}
+
+#subscription_notified, #save_change_password{
+	background: white;
+	color:orange;
+}
+
+#subscription_notified:hover, #save_change_password:hover{
+	background: #FFA500;
+	color:white;
+}
+
+#user_setting_password{
+	background: white;
+	color:black;
+}
+
+#user_setting_password:hover{
+	background: #FFA500;
+	color:white;
+}
+
+
+
+
+

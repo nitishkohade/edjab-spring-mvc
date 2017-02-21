@@ -1,0 +1,40 @@
+
+
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+
+#save_review{
+	text-decoration: none;
+	background: white;
+	color: black;
+}
+
+#cancel_review{
+	text-decoration: none;
+	background: white;
+	color: black;
+}
+
+#save_review:hover{
+	text-decoration: none;
+	background: #20F81D;
+	color: white;
+}
+
+#cancel_review:hover{
+	text-decoration: none;
+	background: orange;
+	color: white;
+}
+

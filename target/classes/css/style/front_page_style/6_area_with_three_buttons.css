@@ -1,0 +1,217 @@
+@media (min-width: 768px) {
+
+.container-fluid#three-button-panel{
+	margin-left: 70px;
+}
+
+.container-fluid#three-button-panel-disabled{
+	margin-left: 70px;
+}	
+	
+.container-fluid>.row-fluid>#out-professor, .container-fluid>.row-fluid>#out-school, .container-fluid>.row-fluid>#out-rate{
+	font-family:Courier,Times New Roman, Times, serif; 
+	text-align:inherit; 
+	font-size:22px; 
+	background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+	height:100px;
+	text-decoration: none;
+}
+
+.container-fluid>.row-fluid>#out-professor-disabled, .container-fluid>.row-fluid>#out-school-disabled, .container-fluid>.row-fluid>#out-rate-disabled{
+	font-family:Courier,Times New Roman, Times, serif; 
+	text-align:inherit; 
+	font-size:22px; 
+	background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+	height:100px;
+	text-decoration: none;
+}
+	
+}
+
+@media (max-width: 768px) and (min-width: 600px) {
+
+.container-fluid#three-button-panel{
+	margin-left: 70px;
+}
+	
+	.container-fluid#three-button-panel-disabled{
+	margin-left: 70px;
+}
+	
+.container-fluid>.row-fluid>#out-professor, .container-fluid>.row-fluid>#out-school, .container-fluid>.row-fluid>#out-rate{
+	font-family:Courier,Times New Roman, Times, serif; 
+	text-align:inherit; 
+	font-size:18px; 
+	background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+	height:100px;
+	text-decoration: none;
+}
+
+.container-fluid>.row-fluid>#out-professor-disabled, .container-fluid>.row-fluid>#out-school-disabled, .container-fluid>.row-fluid>#out-rate-disabled{
+	font-family:Courier,Times New Roman, Times, serif; 
+	text-align:inherit; 
+	font-size:18px; 
+	background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+	height:100px;
+	text-decoration: none;
+}
+
+}
+
+
+@media (max-width: 600px) and (min-width:400px){
+
+.container-fluid#three-button-panel{
+	margin-left: 50px;
+}
+
+.container-fluid#three-button-panel-disabled{
+	margin-left: 50px;
+}
+	
+.container-fluid>.row-fluid>#out-professor, .container-fluid>.row-fluid>#out-school, .container-fluid>.row-fluid>#out-rate{
+	font-family:Courier,Times New Roman, Times, serif; 
+	
+	text-align:center; 
+	font-size:14px; 
+	background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+	height:60px;
+	text-decoration: none;
+}
+
+.container-fluid>.row-fluid>#out-professor-disabled, .container-fluid>.row-fluid>#out-school-disabled, .container-fluid>.row-fluid>#out-rate-disabled{
+	font-family:Courier,Times New Roman, Times, serif; 
+	
+	text-align:center; 
+	font-size:10px; 
+	background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+	height:60px;
+	text-decoration: none;
+}
+
+}
+
+@media (max-width: 400px){
+
+.container-fluid#three-button-panel{
+	margin-left: 30px;
+}
+	
+	.container-fluid#three-button-panel-disabled{
+	margin-left: 30px;
+}
+	
+.container-fluid>.row-fluid>#out-professor, .container-fluid>.row-fluid>#out-school, .container-fluid>.row-fluid>#out-rate{
+	font-family:Courier,Times New Roman, Times, serif; 
+	text-align:center; 
+	font-size:13px; 
+	background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+	height:60px;
+	text-decoration: none;
+}
+
+.container-fluid>.row-fluid>#out-professor-disabled, .container-fluid>.row-fluid>#out-school-disabled, .container-fluid>.row-fluid>#out-rate-disabled{
+	font-family:Courier,Times New Roman, Times, serif; 
+	
+	text-align:center; 
+	font-size:9px; 
+	background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+	height:60px;
+	text-decoration: none;
+}
+
+}
+
+.panel-title {
+	display: inline;
+	font-weight: bold;
+}
+
+.checkbox.pull-right {
+	margin: 0;
+}
+
+.pl-ziro {
+	padding-left: 0px;
+}
+
+.btn-success {
+	background-color: #5cb85c;
+}
+
+.btn3d {
+	transition: all .08s linear;
+	position: relative;
+	outline: medium none;
+	-moz-outline-style: none;
+	border: 0px;
+	margin-right: 10px;
+	margin-top: 15px;
+	height: 100x;
+	padding: 20px 120px;
+}
+
+.btn3d:focus {
+	outline: medium none;
+	-moz-outline-style: none;
+}
+
+.btn3d:active {
+	top: 9px;
+}
+
+.btn3d:hover {
+	background: blue;
+}
+
+#engg_text, #medical_text, #tuition_text {
+	font-size: 30px;
+	height: 60px;
+	border-radius: 0px;
+}
+
+.btn-xlarge {
+	position: relative;
+	vertical-align: center;
+	margin: 30px;
+	/*width: 100%;*/
+	height: 100x;
+	padding: 48px 48px;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background: #62b1d0;
+	border: 0;
+	border-bottom: 3px solid #9FE8EF;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 -3px #9FE8EF;
+	box-shadow: inset 0 -3px #9FE8EF;
+}
+
+.btn-xlarge:active {
+	top: 2px;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.btn-xlarge:hover {
+	background: #45E1E8;
+}

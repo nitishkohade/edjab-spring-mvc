@@ -1,0 +1,80 @@
+
+
+#professor-panel, #school-panel, #rate-panel {
+	display: none;
+	width: 100%;
+	text-align: center;
+	/* background-image: url("../../img/background-image3.jpg"); */
+	height: 100%;
+}
+
+.out, .out-to-be-hidden {
+	width: 100%;
+	background-image: url("/img/background-image2.jpg");
+	text-align: center;
+	height: 100%;
+}
+
+.out-heading {
+	color: white;
+	text-align: center;
+}
+
+#invisible-professor, #invisible-school, #invisible-rate {
+	display: none;
+	font-size: 1px;
+	background-color: white;
+}
+
+
+.technical-button:hover {
+	background-color:#2bff00;
+	text-decoration:none;
+	color:#000000;
+}
+.technical-button:active {
+	color:#000000;
+	text-decoration:none;
+}
+.technical-button:visited {
+    text-decoration: none;
+    color:#000000;
+}
+.technical-button:link {
+    text-decoration: none;
+    color:#000000;
+}
+.technical-button:focus {outline:0;}
+
+textarea, textarea.form-control, input.form-control, input[type=text], input[type=password], input[type=email], input[type=number], [type=text].form-control, [type=password].form-control, [type=email].form-control, [type=tel].form-control, [contenteditable].form-control {
+    padding: 10px;
+    /* border: thistle; */
+    border-radius: 0;
+    -webkit-appearance: none;
+    -webkit-box-shadow: inset 0 -1px 0 #dddddd;
+    box-shadow: inset 0 -1px 0 #dddddd;
+    font-size: 16px;
+}
+
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 0px solid #dddddd;
+}
+
+.btn {
+    text-transform: uppercase;
+    border: ridge;
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+#location_modal_awt{
+	display:block; 
+	background:white;
+	color:black;
+}
+
+

@@ -1,0 +1,99 @@
+
+.breadcrumb {
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #E4E4E4;
+    border-radius: 0px;
+}
+
+#sticky_dashboard.stick {
+    position: fixed;
+    top: 58px;
+    z-index: 1;
+    left: 0;
+    right: 0;
+}
+
+#sticky_dashboard.stick #ul_dashboard{
+	box-shadow:1px 2px 8px black;
+	margin-top: 0px;
+}
+
+   
+    #dashboard {
+      z-index: 1;
+      left: 0;
+      right: 0;
+      background: white;
+    }
+    
+   @media (min-width: 500px) {  
+    
+    #dashboard li, #dashboard ul {
+    background: white;
+      list-style: none;
+      margin: 2px;
+      padding: 3px;
+      text-align: center
+    }
+    
+   }
+    #dashboard li, #dashboard a {
+      display: inline-block;
+      border: 0px;
+    }
+    #dashboard>ul>li>a {
+    border: 0px;
+      color: black;
+      text-decoration: none;
+    }
+   #dashboard>ul>li>a:hover {
+   border: 0px;
+      background: #b6b1fb;
+      color: white;
+      text-decoration: none;
+      
+    }
+    #dashboard>ul>li>a.active {
+    border: 0px;
+      background: #7266ff;
+      color: white;
+      text-decoration: none;
+    }
+    
+ 
+@media (max-width: 500px) { 
+	
+	#dashboard li, #dashboard ul {
+    background: white;
+      list-style: none;
+      margin: 2px;
+      padding: 0px;
+      text-align: center
+    }
+	
+
+}
+
+
+@media (min-width: 400px) and (max-width: 500px) { 
+		
+[href="#about_area"], [href="#map_area"], [href="#photo_area"], [href="#video_area"], [href="#comment_area"]{
+font-size: 11px;
+}
+}
+
+@media (min-width:350px) and (max-width: 400px) { 
+		
+[href="#about_area"], [href="#map_area"], [href="#photo_area"], [href="#video_area"], [href="#comment_area"]{
+font-size: 9px;
+}
+}
+
+@media (max-width: 350px) { 
+		
+[href="#about_area"], [href="#map_area"], [href="#photo_area"], [href="#video_area"], [href="#comment_area"]{
+font-size: 8px;
+}
+}

@@ -1,0 +1,162 @@
+
+
+
+.user_info_gender {
+    width: 100px; 
+    padding: 10px;
+    position: relative;
+    color: black;
+    
+}
+
+
+.user_info_radio_dot:after{
+    content: "";
+    display: block;
+    position: absolute;
+    background: transparent;
+    border-radius: 40%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    top: -5px;
+    left: -5px;
+}
+
+.user_info_radio_dot{
+    content: "";
+    display: block;
+    position: absolute;
+    
+    border-radius: 40%;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #000;
+    top: 14px;
+    
+}
+
+
+#user_info_edit_save{
+	font-size:24px;
+	text-decoration: none;
+	background: #20F81D;
+	color: black;
+}
+
+#user_info_edit_reset{
+	font-size:24px;
+	text-decoration: none;
+	background: orange;
+	color: black;
+}
+
+#user_info_edit_save:hover{
+	font-size:24px;
+	text-decoration: none;
+	background: #20F81D;
+	color: white;
+}
+
+#user_info_edit_reset:hover{
+	font-size:24px;
+	text-decoration: none;
+	background: orange;
+	color: white;
+}
+
+
+
+
+#edit_firstName, #edit_middleName, #edit_lastName, #edit_datepicker, #edit_contact, 
+#edit_addressLine1, #edit_city, #edit_state, #edit_user_info_country, #edit_zip, #edit_emailId {
+    padding: 10px!important;
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: black;
+    background-color: #efefef;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.09) inset;
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.09) inset;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.09) inset;
+    -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.09) inset;
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+}
+
+#edit_review_alert_box {
+	overflow: hidden;
+	padding-left: 40px;
+	padding-right: 12px;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	font-size: 22px;
+	font-variant: small-caps;
+	font-family: Times New Roman, Times, serif;
+}
+
+#edit_review_text_area {
+	margin-top: 3px;
+	border-color: #aaa9a9;
+	box-shadow: 1px 2px 7px;
+	color: black;
+	background: snow;
+	font-size: 17px;
+	border-radius: 0px;
+}
+
+#edit_review_save {
+	box-shadow: 1px 2px 5px;
+	cursor: pointer;
+	background: white;
+	padding: 15px;
+	color: black;
+	font-size: 20px;
+}
+
+#edit_review_cancel {
+	box-shadow: 1px 2px 5px;
+	cursor: pointer;
+	background: white;
+	padding: 15px;
+	color: black;
+	font-size: 20px;
+}
+
+#user_review_no_reviews {
+	color: orange;
+	font-size: 22px;
+	font-variant: small-caps;
+	font-family: Times New Roman, Times, serif;
+}
+
+#user_review_alert_box {
+	overflow: hidden;
+	padding-left: 40px;
+	padding-right: 12px;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	font-size: 22px;
+	font-variant: small-caps;
+	font-family: Times New Roman, Times, serif;
+}
+
+#user_review_text_area {
+	margin-top: 3px;
+	color: #5c5c5c;
+	box-shadow: 1px 2px 15px;
+	cursor: text;
+	background: white;
+	font-size: 17px;
+	border-radius: 0px;
+}
+
+
+
+

@@ -1,0 +1,15 @@
+/* .infoWindowContent {
+    font-size:  14px !important;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+h2 {
+    margin-bottom:0;
+    margin-top: 0;
+} */
+
+#frontMapView, #frontMapView_nearby{
+	
+	width:100%;
+	height:450px;
+}

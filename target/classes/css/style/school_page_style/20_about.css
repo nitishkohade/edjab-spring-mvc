@@ -1,0 +1,43 @@
+#about_container_1a {
+	font-family: Times New Roman, Times, serif;
+	font-family: Courier;
+	font-variant: cursive;
+	font-size: 16px;
+}
+
+#about_container_1b {
+	font-family: Courier, Times New Roman, Times, serif;
+	font-size: 30px;
+	color: blue;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	line-height: 0.1em;
+	margin: 10px 0 20px;
+}
+
+#about_container_1c {
+	background: #fff;
+	padding: 0 10px;
+}
+
+#about_container_1d {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: white;
+	text-align: justify;
+	border: 1px solid
+}
+
+#about_container_1e {
+	font-family: Courier, Times New Roman, Times, serif;
+	font-variant: cursive;
+	font-size: 21px;
+	color: blue;
+}
+
+#about_container_1f {
+	font: inherit;
+}

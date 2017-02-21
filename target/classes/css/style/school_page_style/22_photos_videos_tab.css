@@ -1,0 +1,86 @@
+
+
+#video_area_tab_button:hover{
+	   text-decoration: none;
+    background-color: white;
+        /* border-color: #eee #eee #ddd; */
+}
+ 
+
+
+.panel { position: relative; overflow: hidden; display: block; border-radius: 0 !important;  }
+.panel-default {border-color: #ebedef !important; }
+.panel .panel-body {position: relative; padding: 0 !important; overflow: hidden; width: 100%; height: auto; }
+.panel .panel-body a { overflow: hidden; }
+.panel .panel-body a img {float:right; display: block; margin: 0;  
+    transition: all 0.5s; 
+    -moz-transition: all 0.5s; 
+    -webkit-transition: all 0.5s; 
+    -o-transition: all 0.5s; 
+}
+.panel .panel-body a.zoom:hover img { transform: scale(2.2); -ms-transform: scale(2.2); -webkit-transform: scale(2.2); -o-transform: scale(2.2); -moz-transform: scale(2.2); }
+.panel .panel-body a.zoom span.overlay { position: absolute; top: 0; left: 0; visibility: hidden; height: 100%; width: 100%; background-color: #000; opacity: 0; 
+    transition: opacity .25s ease-out;
+    -moz-transition: opacity .25s ease-out;
+    -webkit-transition: opacity .25s ease-out;
+    -o-transition: opacity .25s ease-out;
+}     
+.panel .panel-body a.zoom:hover span.overlay { display: block; visibility: visible; opacity: 0.55; -moz-opacity: 0.55; -webkit-opacity: 0.55; filter: alpha(opacity=65); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)"; }  
+.panel .panel-body a.zoom:hover span.overlay i { position: absolute; top: 45%; left: 0%; width: 100%; font-size: 2.25em; color: #fff !important; text-align: center;
+    opacity: 1;
+    -moz-opacity: 1;
+    -webkit-opacity: 1;
+    filter: alpha(opacity=1);    
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+}
+
+
+#image_loadmore, #video_loadmore{
+	text-align: center;
+}
+
+#image_loadmore>button, #video_loadmore>button{
+color: black; background: white; z-index: 0; border: 0;
+}
+
+.image_container>h2, .video_container>h2{
+	font-family: Courier, Times New Roman, Times, serif; 
+		font-size: 30px; color: blue; width: 100%; 
+		text-align: center; border-bottom: 1px solid #000; 
+		line-height: 0.1em; margin: 10px 0 20px;
+}
+
+
+.image_container>h2>span, .video_container>h2>span{
+	background: #fff; padding: 0 10px;
+}
+
+#image_container_1a, #video_container_1a{
+	margin-top: 30px; 
+						color: orange; font-size: 22px; 
+						font-variant: small-caps; 
+						font-family: Times New Roman, Times, serif;
+}
+
+#image_container_1a>b, #video_container_1a>b{
+	font: inherit;
+}
+
+#image_container_helpful>h4, #video_container_helpful>h4{
+	font-size: 15px;
+}
+
+#image_container_helpful>h4>a, #video_container_helpful>h4>a{
+	color: white; text-decoration: none; font: inherit; font-weight: 800; text-decoration: none
+}
+
+
+
+
+
+
+
+
+
+
+

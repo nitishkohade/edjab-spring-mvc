@@ -1,0 +1,142 @@
+
+/* -- color classes -- */
+.coralbg {
+	background: #f4f4f4;
+}
+
+.row {
+    margin-top: 10px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* -- The btn stylings for the btn icons -- */
+.btn-label {
+	position: relative;
+	left: -12px;
+	display: inline-block;
+	padding: 6px 12px;
+	background: rgba(0, 0, 0, 0.15);
+	border-radius: 3px 0 0 3px;
+}
+
+.btn-labeled {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+/* -- Custom classes for the snippet, won't effect any existing bootstrap classes of your site, but can be reused. -- */
+.user-pad {
+	padding: 30px 20px;
+}
+
+
+.user-image {
+	max-height: 300px;
+	overflow: hidden;
+}
+
+
+.rating .glyphicon {font-size: 30px;}
+.rating-num { margin-top:0px;font-size: 64px; }
+.progress { margin-bottom: 5px;}
+.progress-bar { font-size:15px; color:#000; text-align: left; }
+.rating-desc .col-md-3 {padding-right: 0px;}
+.sr-only { margin-left: 5px;overflow: visible;clip: auto; }
+
+
+.divider 
+{
+    border-top:1px solid rgba(0,0,0,0.1);
+    }
+.emphasis 
+{
+    border-top: 4px solid transparent;
+    }
+.emphasis:hover 
+{
+    border-top: 4px solid #A8B3FF;
+    }
+.emphasis h2
+{
+    margin-bottom:0;
+    }
+
+
+/* Star rating */
+.star-ctr {
+    display: inline-block;
+    position: relative;
+}
+
+.star-ctr ul {
+    white-space: nowrap;
+    list-style: none outside none;
+    padding-left: 0;
+    overflow: hidden;
+}
+
+.star-fg {
+    top: 0;
+    position: absolute;
+}
+
+.star-ctr li {
+    display: inline-block;
+}
+
+.star-ctr a > span {
+    font-size: 3em;
+}
+
+.star-bg a > span {
+    color: #c7c7c7
+}
+
+.star-fg a > span {
+    color: gold;
+}
+
+
+
+.profile_container>.body{
+	background: white; color: black;
+}
+
+
+.profile_container>.body>div>h2{
+	font-variant: small-caps; font-family: Courier, Times New Roman, Times, serif; color: black;
+}
+.profile_container_1a>div>img{
+	background: transparent; width: 250px; height: 250px
+}
+.profile_container_1b>.user-pad{
+	font-family: Courier, Times New Roman, Times, serif; margin-left: -30px;
+}
+.profile_container_1b>.user-pad>span{
+	font-size: 20px; font-variant: small-caps; font-family: Courier, Times New Roman, Times, serif; color: black;
+}
+.profile_container_1b>.user-pad>span p{
+	background: #A8B3FF;
+}
+.profile_container_1b>.user-pad>span a{
+	position: relative; text-decoration: none; color: black;
+}
+.profile_container{
+	
+}
+.profile_container{
+	
+}
+.profile_container{
+	
+}
+
+
+
+
+
+
+
+
+
